@@ -22,4 +22,4 @@ Next you will see
 > solana wallet privte key
 > [...]
 
-copy the entire string include '[' and ']' into a json file, you should then be able to import in other wallets
+copy the entire string include '[' and ']' into a file named id.json, you should then be able to import in other wallets; and be used in image upload as creator
