@@ -23,3 +23,16 @@ Next you will see
 > [...]
 
 copy the entire string include '[' and ']' into a file named id.json, you should then be able to import in other wallets; and be used in image upload as creator
+
+### helpful command
+solana balance
+    solana balance <pubkey>
+
+Note: if pubkey not provided, read from ~/.config/solana/id.json
+
+solana airdrop <amount, max 5 in devnet> <pubkey>
+    solana airdrop 5
+
+to repeat airdrop
+    for i in 1 2 3 4 5; solana airdrop 5; done;
+
